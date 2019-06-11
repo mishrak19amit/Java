@@ -15,6 +15,7 @@ public class StringManupulation {
 		
 		text = text.replaceAll("[^a-zA-Z0-9 ]", "").replaceAll("( )+", " ");
 		System.out.println(text);
+		
 	}
 	
 }
