@@ -24,7 +24,7 @@ public class UserDefinedException {
 	public static void main(String[] args) {
 
 		try {
-			System.out.println(computeDiv(3, 2));
+			System.out.println(computeDiv(3, 0));
 		} catch (MyException e) {
 			System.out.println(e.getMessage());
 		}
